@@ -44,14 +44,13 @@
 
 class Solution {
     private int firstPoint = 0;
-    private int lastPoint = 1;
+    private int lastPoint = -1;
 
     public int maxArea(int[] height) {
 
         lastPoint = height.length - 1;
         int maxArea = -1;
         int area = -1;
-        boolean needFistMove = true;
         for (;firstPoint < lastPoint;) {
 
             if (height[firstPoint] < height[lastPoint]) {
