@@ -31,10 +31,7 @@ import java.util.List;
 class Solution {
     public List<Integer> partitionLabels(String S) {
 
-        List<Integer> result = new ArrayList<>();
-        int[] letters = new int[26];
-        int last = S.lastIndexOf(S.charAt(0));
-        for (int i)
+
 
     }
 }
