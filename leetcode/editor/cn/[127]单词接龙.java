@@ -77,7 +77,7 @@ class Solution {
                         usedWords[index] = true;
                     }
                     ++index;
-                }
+            }
             }
             count++;
             if (usedWords[indexEndWord]) {
