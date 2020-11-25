@@ -96,8 +96,8 @@ class Solution {
         switch (order) {
             case ARC:
                 for (int i = 0; i < charCounts.length; ++i) {
-                        isAppended = appendElement(stringBuilder, charCounts, i);
-                        if (isAppended) result = true;
+                    isAppended = appendElement(stringBuilder, charCounts, i);
+                    if (isAppended) result = true;
                 }
                 break;
             case DESC:
